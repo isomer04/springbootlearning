@@ -69,7 +69,6 @@ public class StudentService {
         if (name != null && name.length() > 0 &&
                 !Objects.equals(student.getName(), name)) {
             student.setName(name);
-
         }
 
         if (email != null && email.length() > 0 &&
